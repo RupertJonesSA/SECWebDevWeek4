@@ -9,7 +9,7 @@ const Content = () => {
   const handleNameChange = () =>{
     const names = ["Sami", "Bob", "John"];
     const int = Math.floor(Math.random()*3);
-     setName(names[int]); 
+    setName(names[int]); 
   }
 
   const handleClick = () =>{
@@ -27,8 +27,6 @@ const Content = () => {
           Hello {name}!
         </p>
         <button onClick={handleNameChange}>Change Name</button>
-        {/* Use anonymous function to implement a function that
-        need a parameter in jsx */}
         <button onClick={handleClick}>Click It</button>
         <button onClick={handleClick2}>Click It</button>
     </main>
