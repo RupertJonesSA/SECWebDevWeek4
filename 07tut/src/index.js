@@ -13,6 +13,7 @@ ReactDOM.render(
       </Routes>
     </Router>
   </React.StrictMode>,
+  // Everything is attatched to a div with an ID of 'root'.
   document.getElementById('root')
 );
 
